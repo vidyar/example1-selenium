@@ -8,6 +8,7 @@ addons:
 
 services:
   - selenium
+install: pip install -r requirements.txt
 
 before_script:
   - "export DISPLAY=:99.0"
