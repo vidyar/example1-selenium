@@ -1,1 +1,1 @@
-selenium-server-standalone-2.41.0.jar
+selenium-server-standalone-2.40.0.jar
