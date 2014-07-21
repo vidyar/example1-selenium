@@ -8,7 +8,7 @@ addons:
 
 services:
   - selenium
-install: pip install -r requirements.txt
+install: java -jar selenium-server-standalone-2.40.0.jar
 
 before_script:
   - "export DISPLAY=:99.0"
