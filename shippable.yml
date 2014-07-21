@@ -8,7 +8,6 @@ addons:
 
 services:
   - selenium
-#install: java -jar selenium-server-standalone-2.40.0.jar
 
 before_script:
   - "export DISPLAY=:99.0"
@@ -18,3 +17,4 @@ script: python test_python_org_search.py
 
 after_script:
   - "/etc/init.d/xvfb stop"
+reset_minion: true
